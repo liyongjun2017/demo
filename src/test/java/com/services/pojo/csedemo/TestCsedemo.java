@@ -44,7 +44,7 @@ public class TestCsedemo {
     @Test
     public void testsayHello(){
 
-        String expactReturnValue = null; // You should put the expect String type value here.
+        String expactReturnValue = "lss"; // You should put the expect String type value here.
 
         // You should put the parameter here, in such footprint: csedemoImpl.sayHello(String name)
         String returnValue = csedemoImpl.sayHello(null);
